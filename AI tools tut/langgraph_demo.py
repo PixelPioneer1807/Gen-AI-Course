@@ -16,8 +16,9 @@ Use cases:
 # - Dynamic workflows with conditional logic
 # - Applications requiring stateful interactions and flexible execution paths
 """
-
+# Langraoh is built on langchain but it is more flexible and powerful
 # langgraph_agent.py
+
 from langgraph.graph import StateGraph, END
 from typing import TypedDict
 from euri_llm import generate_completion

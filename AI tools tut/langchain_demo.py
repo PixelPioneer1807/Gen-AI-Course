@@ -5,7 +5,7 @@ from langchain_core.tools import tool
 from langchain.llms.base import LLM
 from euri_llm import generate_completion
 
-
+# a llm application framework using langchain and euri-llm
 # Tool 1 it's going to generate some sort of poem 
 @tool
 def expert_writer(input):

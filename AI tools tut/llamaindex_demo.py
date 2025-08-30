@@ -18,6 +18,7 @@
 # - Use LlamaIndex for connecting LLMs to structured and unstructured data sources for retrieval and Q&A.
 
 # Let me know which library you'd like to demo first!
+# it is independent of langchain and langgraph
 
 from llama_index.core.agent import ReActAgent
 from llama_index.core.tools import FunctionTool
