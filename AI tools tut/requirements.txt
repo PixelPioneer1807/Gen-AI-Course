@@ -1,0 +1,5 @@
+requests == 2.31.0
+llama-index==0.10.30
+langchain==0.1.17
+langgraph
+crewai[base]
